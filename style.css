@@ -23,6 +23,11 @@ body {
     align-items: center;
 }
 
+#telepfone {
+    text-decoration: none;
+    color: black;
+}
+
 .navigation a {
     text-decoration: none;
     color: black;
@@ -77,10 +82,12 @@ body {
     display: flex;
     align-items: baseline;
 }
-h1{
+
+h1 {
     padding-top: 62px;
     padding-bottom: 66px;
 }
+
 .why_me {
     display: flex;
     padding-bottom: 111px;
@@ -185,11 +192,13 @@ h1{
     width: 341px;
     height: 614.44px;
 }
-.pad_panel{
+
+.pad_panel {
     display: flex;
     justify-content: space-evenly;
     padding-top: 55px;
 }
+
 .block_sect3 h3 {
     font-weight: bold;
     font-size: 21px;
@@ -201,7 +210,6 @@ h1{
     margin-left: 31px;
     text-align: center;
 }
-
 
 .block_sect3_1 h3 {
     background: linear-gradient(97.5deg, rgba(96, 82, 253, 0.3772) 44.19%, rgba(96, 82, 253, 0) 103.75%);
@@ -220,52 +228,64 @@ h1{
     margin-left: 31px;
     text-align: center;
 }
-.section4 h2{
-padding-top: 91px;
-padding-bottom: 74px;
+
+.section4 h2 {
+    padding-top: 91px;
+    padding-bottom: 74px;
 }
-.section5{
+
+.section5 {
     display: flex;
     justify-content: space-around;
     padding-top: 90px;
 }
-#strong_text{
+
+#strong_text {
     font-style: bold;
     font-size: 21px;
 }
-.sect5{
+
+.sect5 {
     display: flex;
 }
-.text-sect5{
+
+.text-sect5 {
     width: 570px;
     font-size: 19px;
 }
-.text-sect5 h1{
+
+.text-sect5 h1 {
     padding-bottom: 20px;
     padding-top: 0;
 }
-.text-sect5 a{
+
+.text-sect5 a {
     color: red;
     text-decoration: none;
 }
-.img_sect5{
+
+.img_sect5 {
     position: relative;
     margin-top: 100px;
 }
-.img_sect5 img{
+
+.img_sect5 img {
     position: absolute;
 }
-#ellipse5{
+
+#ellipse5 {
     position: absolute;
     top: 220px;
     left: 48px;
 }
-#ellipse6{
+
+#ellipse6 {
     left: 244px;
     top: -102px;
     z-index: -1;
 }
-#ellipse7{
+
+#ellipse7 {
     left: -30px;
     top: -46px;
     z-index: -1;
