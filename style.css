@@ -58,7 +58,10 @@ body {
 .section1 {
     background: linear-gradient(120.87deg, #9BB6FD 11.68%, #DDE7FF 80.2%);
 }
-
+.section1 .container{
+display: flex;
+justify-content: space-around;
+}
 .about_us h1 {
     font-style: normal;
     font-weight: 800;
@@ -81,6 +84,7 @@ body {
 .people {
     display: flex;
     align-items: baseline;
+    
 }
 
 h1 {
