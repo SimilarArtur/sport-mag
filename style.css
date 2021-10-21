@@ -58,10 +58,12 @@ body {
 .section1 {
     background: linear-gradient(120.87deg, #9BB6FD 11.68%, #DDE7FF 80.2%);
 }
-.section1 .container{
-display: flex;
-justify-content: space-around;
+
+.section1 .container {
+    display: flex;
+    justify-content: space-around;
 }
+
 .about_us h1 {
     font-style: normal;
     font-weight: 800;
@@ -84,7 +86,6 @@ justify-content: space-around;
 .people {
     display: flex;
     align-items: baseline;
-    
 }
 
 h1 {
@@ -293,4 +294,104 @@ h1 {
     left: -30px;
     top: -46px;
     z-index: -1;
+}
+
+section {
+    background-repeat:no-repeat ;
+    background-image: url(/src/img/bckform.jpg);
+    margin-top: 70px;
+    background-size: 100%;
+}
+
+.section9 {
+    padding-top: 20px;
+}
+
+.section9 h6 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.section9 p {
+    font-size: 20px;
+    color: #FFFF;
+}
+
+.top_block_form {
+    display: flex;
+}
+
+.top_block_form input {
+    width: 400px;
+}
+
+.left_top_block_form {
+    padding-right: 115px;
+}
+
+.left_top_block_form, .right_top_block {
+    width: 400px;
+}
+
+section input, textarea {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    color: white;
+    outline: 0;
+    font-size: 20px;
+}
+
+
+#massage {
+    width: 915px;
+    height: 115px;
+}
+
+.end_section {
+    padding-bottom: 135px;
+}
+
+.section5 {
+    justify-content: left;
+}
+
+#checkbox {
+    opacity: 1;
+    background: #C4C4C4;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+}
+.div_footer{
+    display: flex;
+}
+.copiright, .call1{
+    display: flex;
+    align-items: center;
+    
+}
+.logo-footer img{
+    filter: invert(1);
+    padding-top: 19px;
+}
+.copiright p{
+    font-size: 20px;
+    color: #FFF;
+    padding-right: 72px;
+    padding-left: 80px;
+}
+.call1{
+    padding-left: 240px;
+}
+#truba{
+    background-color: white;
+    filter: invert(100%);
+}
+#telephone1{
+    text-decoration: none;
+    color: white;
 }
