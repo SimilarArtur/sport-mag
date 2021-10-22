@@ -59,9 +59,9 @@ body {
     background: linear-gradient(120.87deg, #9BB6FD 11.68%, #DDE7FF 80.2%);
 }
 
-.section1 .container {
+.content_section1 {
     display: flex;
-    justify-content: space-around;
+    
 }
 
 .about_us h1 {
@@ -159,6 +159,7 @@ h1 {
 
 .section3 {
     background: linear-gradient(287.98deg, rgba(171, 200, 212, 0.48) 70.05%, rgba(173, 194, 203, 0) 99.74%);
+    padding-bottom: 150px;
 }
 
 .line1 {
@@ -214,6 +215,9 @@ h1 {
     height: 66px;
     margin-left: 31px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .block_sect3_1 h3 {
@@ -223,6 +227,9 @@ h1 {
     height: 66.95px;
     margin-left: 31px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .block_sect3_2 h3 {
@@ -232,6 +239,9 @@ h1 {
     height: 66.95px;
     margin-left: 31px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section4 h2 {
@@ -297,7 +307,7 @@ h1 {
 }
 
 section {
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     background-image: url(/src/img/bckform.jpg);
     margin-top: 70px;
     background-size: 100%;
@@ -343,7 +353,6 @@ section input, textarea {
     font-size: 20px;
 }
 
-
 #massage {
     width: 915px;
     height: 115px;
@@ -366,32 +375,38 @@ section input, textarea {
 footer {
     background-color: black;
 }
-.div_footer{
+
+.div_footer {
     display: flex;
 }
-.copiright, .call1{
+
+.copiright, .call1 {
     display: flex;
     align-items: center;
-    
 }
-.logo-footer img{
+
+.logo-footer img {
     filter: invert(1);
     padding-top: 19px;
 }
-.copiright p{
+
+.copiright p {
     font-size: 20px;
     color: #FFF;
     padding-right: 72px;
     padding-left: 80px;
 }
-.call1{
+
+.call1 {
     padding-left: 240px;
 }
-#truba{
+
+#truba {
     background-color: white;
     filter: invert(100%);
 }
-#telephone1{
+
+#telephone1 {
     text-decoration: none;
     color: white;
 }
